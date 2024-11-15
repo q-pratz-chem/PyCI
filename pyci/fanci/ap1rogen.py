@@ -108,7 +108,7 @@ class AP1roGeneralizedSeno(FanCI):
         # Initialize base class
         print("\nInitializing base class")
         FanCI.__init__(self, ham, wfn, nproj, nparam, **kwargs)
-
+        print("\nInitializing base class")
         # Assign reference occupations
         #ref_occs_up = np.arange(nocc_up, dtype=pyci.c_long)
         #ref_occs_dn = np.arange(nocc_dn, dtype=pyci.c_long)
